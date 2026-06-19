@@ -1,4 +1,4 @@
-#import "lib.typ": ieee
+#import "@local/ieee-paper:1.0.0": ieee
 
 #show: ieee.with(
   title: [Un Sistema de Composición Tipográfica para Desentrañar el Proceso de Escritura Científica],
