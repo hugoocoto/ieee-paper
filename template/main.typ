@@ -1,9 +1,9 @@
-#import "lib.typ": ieee
+#import "@local/ieee-paper:1.0.0": ieee
 
 #show: ieee.with(
   title: [],
-  // abstract: [],
-  // index-terms: ("",),
+  abstract: [],
+  index-terms: ("",),
   authors: (
     (
       name: "",
@@ -13,7 +13,7 @@
       email: "",
     ),
   ),
-  // bibliography: bibliography("refs.bib"),
+  bibliography: bibliography("refs.bib"),
   lang: "en",
 )
 
